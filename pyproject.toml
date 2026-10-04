@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "envq-benchmark"
+version = "0.1.0"
+description = "Environment Quality benchmark for learning environments"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "EnvQ contributors"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+envq = "envq.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
