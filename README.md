@@ -214,6 +214,12 @@ Current priorities:
 - cross-environment transfer matrix;
 - reproducible cost accounting.
 
+## Public scope
+
+EnvQ is a public research project. Public contributions should be independently reproducible from public artifacts and must not depend on proprietary system implementations, private datasets, confidential benchmark results, internal operational thresholds, customer-specific workflows, or unpublished commercial research.
+
+Environment adapters should expose only the minimum public interface and evidence required for reproducibility. Private systems may use EnvQ internally, but proprietary implementation details are out of scope for this repository.
+
 ## Contributing
 
 EnvQ is intended to be an open research benchmark. Contributions are welcome for:
